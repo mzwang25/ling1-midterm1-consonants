@@ -152,10 +152,10 @@ if __name__ == "__main__":
 
   try:
     consonantsCovered = set()
-    choices = list( MANNER_OF_ARTICULATION.keys() )
+    choices = list( dictToUse.keys() )
     while 1:
       print( "CHOOSE " + str( choices ) )
-      testPlaceOfArticulation( consonantsCovered, True )
+      testPlaceOfArticulation( consonantsCovered, sys.argv[ 1 ] == "manner" )
 
       if len( consonantsCovered ) == len( CONSONANTS ):
         print( "\nAll Consonants Covered!\n" )
