@@ -4,5 +4,6 @@ This is some code to help memorize consonants for ling 1 midterm. You run it lik
 
 ./cons.py manner   OR   ./cons.py place
 
-and then you answer the questions. You can type in status anytime in order to view
-your progress.
+and then you answer the questions. You can type in 'status' anytime in order to view
+your progress. Likewise for any given consonant, you can type 'example' to get an 
+example word to understand the pronounciation.
